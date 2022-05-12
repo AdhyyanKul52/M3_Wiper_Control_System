@@ -1,15 +1,4 @@
 
-/**
- * @file main.c
- * @author Adhyyan
- * @brief  Wiper Control System
- * @version 0.1
- * @date 2022-05-10
- * 
- * @copyright Copyright (c) 2022
- * 
- */
-
 #include "STM32F407.h"
 #include <stdint.h>
 #include <stdio.h>
