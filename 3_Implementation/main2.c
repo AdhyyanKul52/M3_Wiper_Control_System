@@ -1,13 +1,3 @@
-/**
- * @file main2.c
- * @author Adhyyan
- * @brief  Wiper Control System
- * @version 0.1
- * @date 2022-05-10
- * 
- * @copyright Copyright (c) 2022
- * 
- */
 #include<stdint.h>
 
 #define SRAM_START  0x20000000U
