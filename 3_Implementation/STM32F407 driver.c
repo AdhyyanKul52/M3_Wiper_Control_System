@@ -181,19 +181,7 @@ void GPIO_Init(GPIO_Handle_t *pGPIOHandle)
 }
 
 
-/*********************************************************************
- * @fn      		  - GPIO_DeInit
- *
- * @brief             -
- *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
- *
- * @return            -
- *
- * @Note              -
- */
+
 void GPIO_DeInit(GPIO_RegDef_t *pGPIOx)
 {
 	if(pGPIOx == GPIOA)
@@ -252,19 +240,7 @@ uint8_t GPIO_ReadFromInputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNumber)
 }
 
 
-/*********************************************************************
- * @fn      		  - GPIO_ReadFromInputPort
- *
- * @brief             -
- *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
- *
- * @return            -
- *
- * @Note              -
- */
+
 uint16_t GPIO_ReadFromInputPort(GPIO_RegDef_t *pGPIOx)
 {
 	uint16_t value;
@@ -275,19 +251,7 @@ uint16_t GPIO_ReadFromInputPort(GPIO_RegDef_t *pGPIOx)
 }
 
 
-/*********************************************************************
- * @fn      		  - GPIO_WriteToOutputPin
- *
- * @brief             -
- *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
- *
- * @return            -
- *
- * @Note              -
- */
+
 void GPIO_WriteToOutputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNumber, uint8_t Value)
 {
 
@@ -303,19 +267,7 @@ void GPIO_WriteToOutputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNumber, uint8_t Val
 }
 
 
-/*********************************************************************
- * @fn      		  - GPIO_WriteToOutputPort
- *
- * @brief             -
- *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
- *
- * @return            -
- *
- * @Note              -
- */
+
 void GPIO_WriteToOutputPort(GPIO_RegDef_t *pGPIOx, uint16_t Value)
 {
 	pGPIOx->ODR  = Value;
@@ -397,19 +349,7 @@ void GPIO_IRQInterruptConfig(uint8_t IRQNumber, uint8_t EnorDi)
 
 
 
-/*********************************************************************
- * @fn      		  - SPI_IRQPriorityConfig
- *
- * @brief             -
- *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
- *
- * @return            -
- *
- * @Note              -
- */
+
 void GPIO_IRQPriorityConfig(uint8_t IRQNumber,uint32_t IRQPriority)
 {
 	//1. first lets find out the ipr register
@@ -421,19 +361,7 @@ void GPIO_IRQPriorityConfig(uint8_t IRQNumber,uint32_t IRQPriority)
 	*(  NVIC_PR_BASE_ADDR + iprx ) |=  ( IRQPriority << shift_amount );
 
 }
-/*********************************************************************
- * @fn      		  - GPIO_IRQHandling
- *
- * @brief             -
- *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
- *
- * @return            -
- *
- * @Note              -
- */
+
 void GPIO_IRQHandling(uint8_t PinNumber)
 {
 	//clear the exti pr register corresponding to the pin number
