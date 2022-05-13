@@ -46,19 +46,6 @@ All automotive wipers are controlled by a microprocessor. Many wiper systems in 
 ![m3 drawio (1)](https://user-images.githubusercontent.com/101423830/168214346-3907a598-5a12-4c5d-b277-fd4c11c608de.png)
 
 
-
-
-# SWOT ANALYSIS
-
-## STRENGTH
- * It cleans windshield during rainy weather
-## WEAKNESS
- * Basic implementation of wiper system, enhancement required for practical implementation.
-## OPPURTUNITY
- * Implementation of water spray along with wipers 
-## THREATS
- * Failure of wiper system during heavy rains or bad weather may leads to accidents.
-
 # Test Cases
 
 ## High Level Test Cases
@@ -74,3 +61,14 @@ L_01  Car Ignition is turnrd off
 
 L_02  Car Ignition is Turned on
 
+
+# SWOT ANALYSIS
+
+## STRENGTH
+ * It cleans windshield during rainy weather
+## WEAKNESS
+ * Basic implementation of wiper system, enhancement required for practical implementation.
+## OPPURTUNITY
+ * Implementation of water spray along with wipers 
+## THREATS
+ * Failure of wiper system during heavy rains or bad weather may leads to accidents.
