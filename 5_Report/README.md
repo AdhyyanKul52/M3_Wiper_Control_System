@@ -28,9 +28,18 @@ All automotive wipers are controlled by a microprocessor. Many wiper systems in 
 
 ## HIGH LEVEL REQUIREMENTS
 
+* HR_01  Car is in Ingnition Mode
+* HR_02  Car is in ACC Mode
+* HR_03  Wiper system turned ON
+* HR_04  Wiper system turned OFF
+
 
 ## LOW LEVEL REQUIREMENTS
 
+* LR_01  Button Pressed for 2 seconds ON LED RED
+* LR_02  Button Pressed Again OFF LED RED
+* LR_03  Button Pressed for two times ON LED BLUE, ORANGE, GREEN
+* LR_04  Button Pressed Again for 2 seconds OFF LED BLUE, ORANGE, GREEN
 
 
 # Flowchart
