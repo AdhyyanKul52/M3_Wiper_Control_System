@@ -3,4 +3,4 @@
  ![code quality score](https://api.codiga.io/project/33331/score/svg)
 
 
- https://api.codiga.io/project/33331/status/svg
+ ![code grade](https://api.codiga.io/project/33331/status/svg)
