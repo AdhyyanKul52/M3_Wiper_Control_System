@@ -32,6 +32,12 @@ All automotive wipers are controlled by a microprocessor. Many wiper systems in 
 ## LOW LEVEL REQUIREMENTS
 
 
+
+# Flowchart
+
+"C:\Users\user\Downloads\m3.drawio (1).png"
+
+
 # SWOT ANALYSIS
 
 ## STRENGTH
